@@ -7,6 +7,8 @@ module.exports = {
     mumbai: {
       url: 'https://rpc.ankr.com/polygon_mumbai',
       accounts: [process.env.PRIVATE_KEY],
+      gas: 2100000,
+      gasPrice: 8000000000
     },
     goerli: {
       chainId: 1,
